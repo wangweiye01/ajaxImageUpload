@@ -152,7 +152,6 @@ public class UploadServlet extends HttpServlet {
 	/**
 	 * @Method: makeFileName
 	 * @Description: 生成上传文件的文件名，文件名以：uuid+"_"+文件的原始名称
-	 * @Anthor:孤傲苍狼
 	 * @param filename
 	 *            文件的原始名称
 	 * @return uuid+"_"+文件的原始名称
