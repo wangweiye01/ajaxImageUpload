@@ -38,10 +38,9 @@
         allowType: ["gif", "jpeg", "jpg", "bmp",'png'], //允许上传图片的类型
         maxSize :2, //允许上传图片的最大尺寸，单位M
         before: function () {
-            alert('上传前回调函数');
+            console.log('上传前回调函数');
         },
         success:function(data){
-            alert('上传成功回调函数');
             console.log(data);
         },
         error:function (e) {
